@@ -18,6 +18,8 @@ Route::get('/', function () {
 Route::get('/github', function () {
     return view('github');
 });
-Route::get('/new ', function () {
+Route::get('/rebase', function () {
+    return view('rebase');
+});Route::get('/new ', function () {
     return view('new');
 });
